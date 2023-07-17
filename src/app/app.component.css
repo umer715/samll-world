@@ -1,0 +1,81 @@
+h1 {
+  background-color: rgba(212, 212, 212, 0.734);
+  min-height:6vmin;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
+}
+
+ul{
+  list-style: none;
+  display: flex; 
+  flex-direction: column;
+  margin: 50px 20px 0px 20px;
+  padding: 15px;
+}
+
+li{
+  font-weight: bold;
+}
+
+mat-form-field{
+  margin-right: 10px;
+}
+
+.example-container {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #555;
+}
+.custom-form-field {
+  width: 100%; /* Adjust the width value as needed */
+  max-width: 400px; /* Set a maximum width if desired */
+}
+
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.card-content-head{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+.pl-left{
+  padding-left: 100px;
+}
+.pl-t{
+  padding-top: 30px;
+}
+.pd-5{
+  padding: 15px;
+}
+.fl-right{
+  float: right;
+  color:gray;
+  font-weight: 500;
+}
+.my-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.my-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.material-symbols-outlined {
+  margin-right: 5px;
+}
+
+
+
